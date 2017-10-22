@@ -93,7 +93,13 @@ p
 
 #icon 
 {
-	max-width: 150px;
+	max-width: 100px;
+	margin: 1% auto;
+}
+
+#iconNederland
+{
+	max-width: 125px;
 	margin: 1% auto;
 }
 
@@ -126,6 +132,11 @@ p
 	text-decoration: none;
 }
 
+.shield
+{
+	margin-left: -15px;
+}
+
 @media (max-width: 900px)
 {
 	.fa 
@@ -144,7 +155,7 @@ p
 
 	#icon
 	{
-		max-width: 150px;
+		max-width: 125px;
 	}
 
 	h2 
