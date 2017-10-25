@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<!-- 
+			Website currently in beta
+			@author Victor Wernet
+
+			@since 0.1.0
+			@version 1.3.5
+		-->
 		<title>Welcome</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,7 +38,7 @@
 					</ul>
 				</div>
 			</div>
-		</nav>
+		</nav> <!-- End navigation bar -->
 		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
 			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -40,27 +47,27 @@
 			</ol>
 			<div class="carousel-inner" role="listbox">
 				<div class="active item">
-					<img src="images/php_smaller.jpg">
+					<img src="images/php_smaller.jpg" alt="first slide">
 					<div class="carousel-caption">
 						<h1>Custom software solution</h1>
 						<br>
-						<button type="button" class="btn btn-default">Get Started</button>
+						<a class="btn btn-default slide-text" href="#contact" role="button">Get Started</a>
 					</div>
 				</div> <!-- End Active -->
 				<div class="item">
-					<img src="images/devices_smaller.jpg">
+					<img src="images/devices_smaller.jpg" alt="second slide">
 					<div class="carousel-caption">
 						<h1>Responsive development</h1>
 						<br>
-						<button type="button" class="btn btn-default">Get Started</button>
+						<a class="btn btn-default slide-text" href="#contact" role="button">Get Started</a>
 					</div>
 				</div>
 				<div class="item">
-					<img src="images/notes_smaller.jpg">
+					<img src="images/notes_smaller.jpg" alt="third slide">
 					<div class="carousel-caption">
 						<h1>Let's discuss it over coffee!</h1>
 						<br>
-						<button type="button" class="btn btn-default">Get Started</button>
+						<a class="btn btn-default slide-text" href="#contact" role="button">Get Started</a>
 					</div>
 				</div>
 			</div> 
@@ -80,7 +87,7 @@
 					</p>
 				</div>
 				<div class="col-md-6">
-					<img src="images/solver.jpeg" class="img-responsive">
+					<img src="images/solver.jpeg" class="img-responsive img-thumbnail">
 				</div>
 			</div>
 		</div> <!-- End of About -->
@@ -188,7 +195,7 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<h4><a href="#hidden" data-toggle="collapse" id="contact">Contact me to start the journey</a></h4>
+				<h4 id="contact"><a href="#hidden" data-toggle="collapse" id="contact">Contact me to start the journey</a></h4>
 				<div id="hidden" class="collapse col-md-10">
 					<br>
 					<p>Email: info@victorwernet.com</p>
@@ -220,6 +227,12 @@
 		</footer>
 		<!-- JQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- ScrollTo library -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+		<!-- localScroll library -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
+		<!-- Our smoothScrolling code -->
+		<script src="js/smoothScrolling.js"></script>
 		<!-- CDN Bootstrap JS-->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</body>

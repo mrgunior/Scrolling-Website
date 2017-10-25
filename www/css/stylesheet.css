@@ -26,6 +26,12 @@ p
 	font-size: 17px;
 }
 
+.slide-text
+{
+	text-transform: capitalize;
+}
+
+
 .navbar-brand 
 {
 	float: left;
@@ -101,6 +107,16 @@ p
 {
 	max-width: 125px;
 	margin: 1% auto;
+}
+
+#about
+{
+	color: #6c7eb7;
+}
+
+#skills
+{
+	color: #6c7eb7;
 }
 
 .glyphicon
