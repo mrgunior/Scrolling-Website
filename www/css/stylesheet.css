@@ -111,11 +111,18 @@ p
 #about
 {
 	color: #3b81d6;
+	padding-top: 20px; /* putting space above for the anchor jump */
+}
+
+#contact
+{
+	padding-top: 20px; /* putting space above for the anchor jump */
 }
 
 #skills
 {
 	color: #3b81d6;
+	padding-top: 20px; /* putting space above for the anchor jump */
 }
 
 .glyphicon
@@ -150,6 +157,11 @@ p
 .shield
 {
 	margin-left: -15px;
+}
+
+.img-responsive
+{
+	margin-top: 45px; /* putting space above for the anchor jump */
 }
 
 @media (max-width: 900px)
